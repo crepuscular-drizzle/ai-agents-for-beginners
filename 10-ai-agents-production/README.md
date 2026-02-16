@@ -19,7 +19,7 @@ _**Note:** It is important to deploy AI Agents that are safe and trustworthy. Ch
 
 ## Traces and Spans
 
-Observability tools such as [Langfuse](https://langfuse.com/) or [Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry) usually represent agent runs as traces and spans.
+Observability tools such as [Langfuse](https://langfuse.com/) or [Microsoft Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/what-is-azure-ai-foundry) usually represent agent runs as traces and spans.
 
 - **Trace** represents a complete agent task from start to finish (like handling a user query).
 - **Spans** are individual steps within the trace (like calling a language model or retrieving data).
@@ -155,7 +155,7 @@ In the [example notebook of this section](./code_samples/10_autogen_evaluation.i
 
 ### Got More Questions about AI Agents in Production?
 
-Join the [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord) to meet with other learners, attend office hours and get your AI Agents questions answered.
+Join the [Microsoft Foundry Discord](https://aka.ms/ai-agents/discord) to meet with other learners, attend office hours and get your AI Agents questions answered.
 
 ## Previous Lesson
 

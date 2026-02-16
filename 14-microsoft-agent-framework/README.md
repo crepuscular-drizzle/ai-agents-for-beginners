@@ -36,8 +36,8 @@ Code samples for [Microsoft Agent Framework (MAF)](https://aka.ms/ai-agents-begi
 
 To deliver AI Agents in Production, MAF also has included features for:
 
-- **Observability** through the use of OpenTelemetry where every action of the AI Agent including tool invocation, orchestration steps, reasoning flows and performance monitoring through Azure AI Foundry dashboards.
-- **Security** by hosting agents natively on Azure AI Foundry which includes security controls such as role-based access, private data handling and built-in content safety.
+- **Observability** through the use of OpenTelemetry where every action of the AI Agent including tool invocation, orchestration steps, reasoning flows and performance monitoring through Microsoft Foundry dashboards.
+- **Security** by hosting agents natively on Microsoft Foundry which includes security controls such as role-based access, private data handling and built-in content safety.
 - **Durability** as Agent threads and workflows can pause, resume and recover from errors which enables longer running process.
 - **Control** as human in the loop workflows are supported where tasks are marked as requiring human approval.
 
@@ -65,7 +65,7 @@ set of instructions for the AI Agent to follow, and an assigned `name`:
 agent = AzureOpenAIChatClient(credential=AzureCliCredential()).create_agent( instructions="You are good at recommending trips to customers based on their preferences.", name="TripRecommender" )
 ```
 
-The above is using `Azure OpenAI` but agents can be created using a variety of services including `Azure AI Foundry Agent Service`:
+The above is using `Azure OpenAI` but agents can be created using a variety of services including `Microsoft Foundry Agent Service`:
 
 ```python
 AzureAIAgentClient(async_credential=credential).create_agent( name="HelperAgent", instructions="You are a helpful assistant." ) as agent
@@ -377,4 +377,4 @@ Code samples for Microsoft Agent Framework can be found in this repository under
 
 ## Got More Questions About Microsoft Agent Framework?
 
-Join the [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord) to meet with other learners, attend office hours and get your AI Agents questions answered.
+Join the [Microsoft Foundry Discord](https://aka.ms/ai-agents/discord) to meet with other learners, attend office hours and get your AI Agents questions answered.

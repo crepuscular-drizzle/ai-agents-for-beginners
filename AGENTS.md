@@ -8,7 +8,7 @@ This repository contains "AI Agents for Beginners" - a comprehensive educational
 - Python 3.12+
 - Jupyter Notebooks for interactive learning
 - AI Frameworks: Semantic Kernel, AutoGen, Microsoft Agent Framework (MAF)
-- Azure AI Services: Azure AI Foundry, Azure AI Agent Service
+- Azure AI Services: Microsoft Foundry, Azure AI Agent Service
 - GitHub Models Marketplace (free tier available)
 
 **Architecture:**
@@ -57,7 +57,7 @@ For **GitHub Models (Free)**:
 - `GITHUB_TOKEN` - Personal access token from GitHub
 
 For **Azure AI Services** (optional):
-- `PROJECT_ENDPOINT` - Azure AI Foundry project endpoint
+- `PROJECT_ENDPOINT` - Microsoft Foundry project endpoint
 - `AZURE_OPENAI_API_KEY` - Azure OpenAI API key
 - `AZURE_OPENAI_ENDPOINT` - Azure OpenAI endpoint URL
 - `AZURE_OPENAI_CHAT_DEPLOYMENT_NAME` - Deployment name for chat model
@@ -269,7 +269,7 @@ Choose framework based on your goals:
 
 ### Getting Help
 
-- Join the [Azure AI Foundry Community Discord](https://aka.ms/ai-agents/discord)
+- Join the [Microsoft Foundry Community Discord](https://aka.ms/ai-agents/discord)
 - Review lesson README files for specific guidance
 - Check the main [README.md](./README.md) for course overview
 - Refer to [Course Setup](./00-course-setup/README.md) for detailed setup instructions

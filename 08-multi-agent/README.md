@@ -173,7 +173,7 @@ In this lesson, we've looked at the multi-agent design pattern, including the sc
 
 ### Got More Questions about the Multi-Agent Design Pattern?
 
-Join the [Azure AI Foundry Discord](https://aka.ms/ai-agents/discord) to meet with other learners, attend office hours and get your AI Agents questions answered.
+Join the [Microsoft Foundry Discord](https://aka.ms/ai-agents/discord) to meet with other learners, attend office hours and get your AI Agents questions answered.
 
 ## Additional resources
 

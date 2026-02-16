@@ -95,7 +95,6 @@ The code samples use either:
 2) AutoGen Framework + GitHub Models Marketplace. Labeled as (autogen.ipynb)
 
 **Requires Azure Subscription**:
-
 3) Azure AI Foundry + Azure AI Agent Service. Labelled as (azureaiagent.ipynb)
 
 We encourage you to try out all three types of examples to see which one works best for you.
@@ -134,8 +133,8 @@ Whichever option you choose, it will determine which setup steps you need to fol
     ```
 
 - A GitHub Account - For Access to the GitHub Models Marketplace
-- Azure Subscription - For Access to Azure AI Foundry
-- Azure AI Foundry Account - For Access to the Azure AI Agent Service
+- Azure Subscription - For Access to Microsoft Foundry
+- Microsoft Foundry Account - For Access to the Azure AI Agent Service
 
 We have included a `requirements.txt` file in the root of this repository that contains all the required Python packages to run the code samples.
 
@@ -219,15 +218,17 @@ With your token copied, open the `.env` file in your favorite text editor and pa
 
 You should now be able to run the code samples of this course.
 
-## Set Up for Samples using Azure AI Foundry and Azure AI Agent Service
+## Set Up for Samples using Microsoft Foundry and Azure AI Agent Service
 
 ### Step 1: Retrieve Your Azure Project Endpoint
 
-Follow the steps to creating a hub and project in Azure AI Foundry found here: [Hub resources overview](https://learn.microsoft.com/azure/ai-foundry/concepts/ai-resources)
+
+Follow the steps to creating a hub and project in Azure AI Foundry found here: [Hub resources overview](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/ai-resources)
+
 
 Once you have created your project, you will need to retrieve the connection string for your project.
 
-This can be done by going to the **Overview** page of your project in the Azure AI Foundry portal.
+This can be done by going to the **Overview** page of your project in the Microsoft Foundry portal.
 
 ![Project Connection String](./images/project-endpoint.png)
 
